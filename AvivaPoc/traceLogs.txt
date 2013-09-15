@@ -1,0 +1,155 @@
+WSC: Creating a new connection to https://test.salesforce.com//services/Soap/u/ Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Body>
+  <m:login xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:username>d.w.kumar@nuffieldhealth.com.parttwodev</m:username>
+   <m:password>deepak123Os6abfqZHm6ueR9YpaWGbYuV</m:password>
+  </m:login>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+null=[HTTP/1.1 500 Server Error]
+Date=[Mon, 22 Jul 2013 19:38:41 GMT]
+Content-Length=[299]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+    <soapenv:Fault>
+      <faultcode>soapenv:Client</faultcode>
+      <faultstring>Invalid Api version specified on URL : /u/</faultstring>
+    </soapenv:Fault>
+  </soapenv:Body>
+</soapenv:Envelope>
+------------ Response end   ----------
+WSC: Creating a new connection to https://test.salesforce.com/services/Soap/u/ Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Body>
+  <m:login xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:username>d.w.kumar@nuffieldhealth.com.parttwodev</m:username>
+   <m:password>deepak123Os6abfqZHm6ueR9YpaWGbYuV</m:password>
+  </m:login>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+null=[HTTP/1.1 500 Server Error]
+Date=[Mon, 22 Jul 2013 19:43:35 GMT]
+Content-Length=[299]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+    <soapenv:Fault>
+      <faultcode>soapenv:Client</faultcode>
+      <faultstring>Invalid Api version specified on URL : /u/</faultstring>
+    </soapenv:Fault>
+  </soapenv:Body>
+</soapenv:Envelope>
+------------ Response end   ----------
+WSC: Creating a new connection to https://test.salesforce.com/services/Soap/u/24.0/ Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Body>
+  <m:login xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:username>d.w.kumar@nuffieldhealth.com.parttwodev</m:username>
+   <m:password>deepak123Os6abfqZHm6ueR9YpaWGbYuV</m:password>
+  </m:login>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+null=[HTTP/1.1 200 OK]
+Date=[Mon, 22 Jul 2013 20:00:49 GMT]
+Content-Length=[815]
+Content-Encoding=[gzip]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <loginResponse>
+      <result>
+        <metadataServerUrl>https://nuffieldhealth--PartTwoDev.cs2.my.salesforce.com/services/Soap/m/24.0/00DR0000001srp8</metadataServerUrl>
+        <passwordExpired>false</passwordExpired>
+        <sandbox>true</sandbox>
+        <serverUrl>https://nuffieldhealth--PartTwoDev.cs2.my.salesforce.com/services/Soap/u/24.0/00DR0000001srp8</serverUrl>
+        <sessionId>00DR0000001srp8!AQEAQGVChtL1hm1JE7tZttJZswRiKzSI7eFRqg.eBrTG1cglvyvarZStJMAcOn5ZA.zr9AMrDRbNQEsOySAZFcUDYTYuBxLi</sessionId>
+        <userId>005R00000018HwcIAE</userId>
+        <userInfo>
+          <accessibilityMode>false</accessibilityMode>
+          <currencySymbol xsi:nil="true"/>
+          <orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit>
+          <orgDefaultCurrencyIsoCode xsi:nil="true"/>
+          <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+          <orgHasPersonAccounts>true</orgHasPersonAccounts>
+          <organizationId>00DR0000001srp8MAA</organizationId>
+          <organizationMultiCurrency>true</organizationMultiCurrency>
+          <organizationName>Nuffield Health</organizationName>
+          <profileId>00e20000001FveTAAS</profileId>
+          <roleId xsi:nil="true"/>
+          <sessionSecondsValid>900</sessionSecondsValid>
+          <userDefaultCurrencyIsoCode>GBP</userDefaultCurrencyIsoCode>
+          <userEmail>d.w.kumar@accenture.com</userEmail>
+          <userFullName>Deepak Kumar</userFullName>
+          <userId>005R00000018HwcIAE</userId>
+          <userLanguage>en_US</userLanguage>
+          <userLocale>en_GB</userLocale>
+          <userName>d.w.kumar@nuffieldhealth.com.parttwodev</userName>
+          <userTimeZone>Europe/London</userTimeZone>
+          <userType>Standard</userType>
+          <userUiSkin>Theme3</userUiSkin>
+        </userInfo>
+      </result>
+    </loginResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
+------------ Response end   ----------
+WSC: Creating a new connection to https://nuffieldhealth--PartTwoDev.cs2.my.salesforce.com/services/Soap/u/24.0/00DR0000001srp8 Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Header>
+  <SessionHeader xmlns="urn:partner.soap.sforce.com">
+   <sessionId>00DR0000001srp8!AQEAQGVChtL1hm1JE7tZttJZswRiKzSI7eFRqg.eBrTG1cglvyvarZStJMAcOn5ZA.zr9AMrDRbNQEsOySAZFcUDYTYuBxLi</sessionId>
+  </SessionHeader>
+ </env:Header>
+ <env:Body>
+  <m:create xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:sObjects>
+    <sobj:type xsi:type="xsd:string">AvivaAccountStaging__c</sobj:type>
+    <sobj:Title__c xsi:type="xsd:string">MR</sobj:Title__c>
+    <sobj:First_Name__c xsi:type="xsd:string">DEEPAK</sobj:First_Name__c>
+    <sobj:Last_Name__c xsi:type="xsd:string">KUMAR</sobj:Last_Name__c>
+   </m:sObjects>
+  </m:create>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+null=[HTTP/1.1 200 OK]
+Date=[Mon, 22 Jul 2013 20:00:51 GMT]
+Content-Length=[206]
+Content-Encoding=[gzip]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com">
+  <soapenv:Body>
+    <createResponse>
+      <result>
+        <id>a11R0000001CbtSIAS</id>
+        <success>true</success>
+      </result>
+    </createResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
+------------ Response end   ----------
